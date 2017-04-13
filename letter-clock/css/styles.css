@@ -127,4 +127,7 @@ span.focus {
 	.intro h1 {
 		font-size: 40px;
 	}
+	.btn{
+		font-size: 14px;
+	}
 }

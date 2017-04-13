@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	background: rgb(0, 145, 194);  /* fallback for old browsers */
+
+}
+.wrapper{
+	margin: 20px auto;
+}
+.screen {
+	width: 350px;
+	height: 600px;
+	background-color: #1e0110;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5)
+}
+/*NOTIFICATION BAR*/
+.notification-bar{
+	height: 30px;
+	position: relative;
+	color: #949494;
+}
+.notification-bar .if {
+	top: 5px;
+	position: absolute;
+}
+.if-wifi {
+	left: 20px;
+}
+.if-battery {
+	right: 20px;
+}
+.time {
+	top: 5px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 12px;
+}
+/*MAIN AREA*/
+.main-area {
+	width: 100%;
+	height: 385px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-transform: uppercase;
+}
+.sunny{
+	background-image: url('../img/bg.png');
+}
+.city{
+	color: #7a7a7a;
+	margin-bottom: 0;
+	font-size: 16px;
+}
+.date{
+	color: #a1a1a1;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	font-size: 22px;
+}
+.temp{
+	font-size: 220px;
+	margin-top:0px;
+	margin-bottom: 0;
+	color:#4c0026;
+}
+.col{
+	float: left;
+	width: 33.333333%;
+}
+.row:after{
+	display: table;
+	content:"";
+	clear: both;
+}
+.details{
+	color: #a9a9a9;
+	text-transform: lowercase;
+}
+.details .if {
+	font-size: 1.5em;
+}
+.details p{
+	margin: 0;
+	font-size: 14px;
+}
+.upcoming-days{
+	padding-left: 30px;
+	text-align: center;
+	color: #7d7d7d;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+}
+.img{
+	width: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+/*INTRO section*/
+.intro {
+	margin-top: 100px;
+	color: #fff;
+	text-align: center;
+}
+.intro h1 {
+	font-size: 55px;
+	margin: 0;
+}
+.intro h3 {
+	font-size: 30px;
+	font-weight: 300;
+}
+.intro h3 a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 400;
+	font-size: 50px;
+}
+.intro .btn {
+	text-decoration: none;
+	padding: 20px 16px;
+	border-radius: 5px;
+	color: #000;
+	border: 1px solid #fcfafa;
+	background-color: #fff;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.intro p{
+	color: #000;
+	font-size: 12px;
+}

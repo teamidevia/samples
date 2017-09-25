@@ -101,45 +101,45 @@ function hiHatCallback() {
   hiHatTl.play();
 
   if (hiHatCounter < 5) {
-    hiHatUpperTl.reverse();
     playHiHatClosed();
+    hiHatUpperTl.reverse();
   } else {
-    hiHatUpperTl.play();
     playHiHatOpen();
+    hiHatUpperTl.play();
     hiHatCounter = 0;
   }
 }
 
 function crashCymbolCallback() {
+  playCrashAudio();
   crashTl.restart();
   crashTl.play();
-  playCrashAudio();
 }
 function rightTomDrumCallback() {
+  playSmallRackTomAudio();
   rightTomTl.restart();
   rightTomTl.play();
-  playSmallRackTomAudio();
 }
 
 function leftTomDrumCallback() {
+  playBigRackTomAudio();
   leftTomTl.restart();
   leftTomTl.play();
-  playBigRackTomAudio();
 }
 function floorTomCallback() {
+  playFloorTomAudio();
   floorTomTl.restart();
   floorTomTl.play();
-  playFloorTomAudio();
 }
 function snareDrumCallback() {
+  playSnareAudio();
   snareTl.restart();
   snareTl.play();
-  playSnareAudio();
 }
 function kickDrumCallback() {
+  playkickAudio();
   kickDrumTl.restart();
   kickDrumTl.play();
-  playkickAudio();
 }
 
 // Play sounds
